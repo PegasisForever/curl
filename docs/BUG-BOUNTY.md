@@ -12,7 +12,7 @@ After you have reported a security issue, it has been deemed credible and a
 patch and advisory has been made public you can be eligible for a bounty from
 this program.
 
-See all details at https://hackerone.com/curl
+See all details at [https://hackerone.com/curl](https://hackerone.com/curl)
 
 This bounty is relying on funds from sponsors. If you use curl professionally,
 consider help funding this!
