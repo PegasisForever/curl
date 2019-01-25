@@ -274,7 +274,7 @@ CURLcode Curl_altsvc_save(struct altsvcinfo *altsvc, const char *file)
 {
   struct curl_llist_element *e;
   struct curl_llist_element *n;
-  CURLcode result;
+  CURLcode result = CURLE_OK;
   FILE *out = fopen(file, FOPEN_WRITETEXT);
   if(!out)
     return CURLE_WRITE_ERROR;
